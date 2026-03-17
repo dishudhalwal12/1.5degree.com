@@ -42,7 +42,7 @@ export default function Dashboard() {
             className="mt-16 flex flex-col items-center"
           >
             <a 
-              href={`${import.meta.env.BASE_URL}Q2-Growth-Commitments.pdf`}
+              href={`${import.meta.env.BASE_URL}Growth-Commitments.pdf`}
               download
               className="group flex items-center gap-3 bg-brand-teal text-brand-cream px-8 py-4 rounded-full font-medium transition-all hover:scale-105 active:scale-95 shadow-lg shadow-brand-teal/20"
             >
@@ -62,7 +62,7 @@ export default function Dashboard() {
                 <polyline points="7 10 12 15 17 10" />
                 <line x1="12" x2="12" y1="15" y2="3" />
               </svg>
-              Download Q2 Growth Commitments (PDF)
+              Download Growth Commitments (PDF)
             </a>
             <p className="mt-4 text-[10px] uppercase tracking-widest text-brand-charcoal/40 font-medium">
               Full strategy report for the founder
