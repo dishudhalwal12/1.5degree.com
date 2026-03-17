@@ -42,7 +42,7 @@ export default function Dashboard() {
             className="mt-16 flex flex-col items-center"
           >
             <a 
-              href="/Q2 Growth Commitments.pdf" 
+              href={`${import.meta.env.BASE_URL}Q2-Growth-Commitments.pdf`}
               download
               className="group flex items-center gap-3 bg-brand-teal text-brand-cream px-8 py-4 rounded-full font-medium transition-all hover:scale-105 active:scale-95 shadow-lg shadow-brand-teal/20"
             >
