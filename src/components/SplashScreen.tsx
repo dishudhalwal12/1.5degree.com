@@ -41,7 +41,7 @@ export default function SplashScreen({ onEnter }: SplashScreenProps) {
           transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
           className="mb-4"
         >
-          <h1 className="text-7xl md:text-9xl font-bold tracking-tighter text-brand-teal">
+          <h1 className="text-6xl md:text-8xl font-medium tracking-tight text-brand-teal">
             1.5 Degree
           </h1>
         </motion.div>
@@ -50,12 +50,12 @@ export default function SplashScreen({ onEnter }: SplashScreenProps) {
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.8 }}
-          className="space-y-2"
+          className="space-y-4"
         >
-          <h2 className="text-2xl md:text-3xl font-medium text-brand-charcoal">
+          <h2 className="text-2xl md:text-4xl font-medium text-brand-charcoal/90 tracking-tight">
             Growth Execution Blueprint
           </h2>
-          <p className="text-lg text-brand-brown font-medium italic">
+          <p className="text-lg md:text-xl text-brand-brown font-medium italic opacity-80">
             "90 days of focused execution."
           </p>
         </motion.div>
