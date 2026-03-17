@@ -33,6 +33,41 @@ export default function Dashboard() {
             </p>
           </motion.div>
           <DashboardGrid />
+          
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="mt-16 flex flex-col items-center"
+          >
+            <a 
+              href="/Q2 Growth Commitments.pdf" 
+              download
+              className="group flex items-center gap-3 bg-brand-teal text-brand-cream px-8 py-4 rounded-full font-medium transition-all hover:scale-105 active:scale-95 shadow-lg shadow-brand-teal/20"
+            >
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                width="20" 
+                height="20" 
+                viewBox="0 0 24 24" 
+                fill="none" 
+                stroke="currentColor" 
+                strokeWidth="2" 
+                strokeLinecap="round" 
+                strokeLinejoin="round" 
+                className="transition-transform group-hover:-translate-y-0.5"
+              >
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                <polyline points="7 10 12 15 17 10" />
+                <line x1="12" x2="12" y1="15" y2="3" />
+              </svg>
+              Download Q2 Growth Commitments (PDF)
+            </a>
+            <p className="mt-4 text-[10px] uppercase tracking-widest text-brand-charcoal/40 font-medium">
+              Full strategy report for the founder
+            </p>
+          </motion.div>
         </section>
 
         <section id="timeline">
